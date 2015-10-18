@@ -21,18 +21,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    @IBAction func findMeal(sender: UIButton) {
-        
-//        let findMealPressed = self.storyboard?.instantiateViewControllerWithIdentifier("FindMealViewControlled") as? ViewController2
-//        self.navigationController?.pushViewController(findMealPressed!, animated: true)
-    }
-    
-    
-    @IBAction func buttonTap(sender : AnyObject) {
-        let makeMealControllerObject = self.storyboard?.instantiateViewControllerWithIdentifier("MakeMealController") as? MakeMealController!
-        self.navigationController?.pushViewController(makeMealControllerObject!, animated: true)
-    }
     
     
     override func didReceiveMemoryWarning() {

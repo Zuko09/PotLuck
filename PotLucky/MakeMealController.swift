@@ -21,16 +21,23 @@ class MakeMealController: UIViewController {
     
     @IBOutlet weak var mealComment: UITextField!
     
+    @IBOutlet weak var mealDate: UIDatePicker!
+    
+    var meal: Meal?
+    
+    
+    
     // MARK: Navigation
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if doneButton === sender {
             let name = mealName.text ?? ""
             let location = mealLocation.text ?? ""
-            let comment = mealComment.text ?? ""
+            
+            meal = Meal(name: name, location: location)
         }
+        
     }
-    
     
     
     override func viewDidLoad() {

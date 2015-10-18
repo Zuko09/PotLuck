@@ -16,6 +16,8 @@
 		2E37A64B1BD34ABD008DACC2 /* PotLuckyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E37A64A1BD34ABD008DACC2 /* PotLuckyUITests.swift */; };
 		2EB943961BD3B44600E4F72D /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB943951BD3B44600E4F72D /* MealTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		2EB943981BD3DA6400E4F72D /* MakeMealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB943971BD3DA6400E4F72D /* MakeMealController.swift */; settings = {ASSET_TAGS = (); }; };
+		561F80E41BD3FE8100ACCF5B /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F80E31BD3FE8100ACCF5B /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		561F80E61BD4114500ACCF5B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F80E51BD4114500ACCF5B /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2E37A64C1BD34ABD008DACC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EB943951BD3B44600E4F72D /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		2EB943971BD3DA6400E4F72D /* MakeMealController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeMealController.swift; sourceTree = "<group>"; };
+		561F80E31BD3FE8100ACCF5B /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		561F80E51BD4114500ACCF5B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +110,11 @@
 				2EB943971BD3DA6400E4F72D /* MakeMealController.swift */,
 				2EB943951BD3B44600E4F72D /* MealTableViewCell.swift */,
 				2E37A62E1BD34ABD008DACC2 /* Main.storyboard */,
+				561F80E51BD4114500ACCF5B /* TableViewController.swift */,
 				2E37A6311BD34ABD008DACC2 /* Assets.xcassets */,
 				2E37A6331BD34ABD008DACC2 /* LaunchScreen.storyboard */,
 				2E37A6361BD34ABD008DACC2 /* Info.plist */,
+				561F80E31BD3FE8100ACCF5B /* Meal.swift */,
 			);
 			path = PotLucky;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561F80E41BD3FE8100ACCF5B /* Meal.swift in Sources */,
+				561F80E61BD4114500ACCF5B /* TableViewController.swift in Sources */,
 				2EB943981BD3DA6400E4F72D /* MakeMealController.swift in Sources */,
 				2E37A62D1BD34ABD008DACC2 /* ViewController.swift in Sources */,
 				2E37A62B1BD34ABD008DACC2 /* AppDelegate.swift in Sources */,
